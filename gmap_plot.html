@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Bokeh Plot</title>
+        
+<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.5.min.css" type="text/css" />
+        
+<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.5.min.js"></script>
+<script type="text/javascript">
+    Bokeh.set_log_level("info");
+</script>
+        <style>
+          html {
+            width: 100%;
+            height: 100%;
+          }
+          body {
+            width: 90%;
+            height: 100%;
+            margin: auto;
+          }
+        </style>
+    </head>
+    <body>
+        
+        <div class="bk-root">
+            <div class="bk-plotdiv" id="b361e45f-368c-4ca4-ab31-f2b53ca9cfe7"></div>
+        </div>
+        
+        <script type="text/javascript">
+            (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              var docs_json = {"2dcef0d2-d4a4-41de-b559-3d50e014146d":{"roots":{"references":[{"attributes":{"callback":null,"plot":{"id":"55dd6dfd-6582-4f6e-9af7-87f3847487e1","type":"GMapPlot"}},"id":"ec803e3c-92de-4827-a70d-30a5619f2cf7","type":"HoverTool"},{"attributes":{"callback":null},"id":"d799b588-d450-46ae-8384-51a084387e35","type":"DataRange1d"},{"attributes":{"lat":39.50428,"lng":-8.513513,"zoom":7},"id":"302f6f32-4ffb-433e-9893-64f3fc2f5c04","type":"GMapOptions"},{"attributes":{"callback":null,"plot":{"id":"6e230e9e-b4eb-462a-b2db-edd5b9a123b8","type":"GMapPlot"},"tooltips":[["data (x,y)","($x, $y)"]]},"id":"b279f7c5-83cc-474a-969f-30355bba6a6f","type":"HoverTool"},{"attributes":{"plot":{"id":"6e230e9e-b4eb-462a-b2db-edd5b9a123b8","type":"GMapPlot"}},"id":"97187058-11f3-497e-b374-1b4023d2c739","type":"PanTool"},{"attributes":{},"id":"079a5ca0-5265-4571-aa93-9de081a28783","type":"ToolEvents"},{"attributes":{},"id":"bcfacaf9-407a-464f-a177-88ca4a2c9654","type":"ToolEvents"},{"attributes":{"api_key":"AIzaSyAl7soWlBEWC5PS_W9yUCs5zhXHUr09HoM","map_options":{"id":"c385baba-ed49-4e2d-992f-0c43761b8e1e","type":"GMapOptions"},"renderers":[{"id":"5fa4d567-1b18-447c-8bc1-24b418543300","type":"BoxAnnotation"},{"id":"cee1f77d-4b00-402c-bbbc-5e2588d05d32","type":"BoxAnnotation"}],"title":{"id":"647452fd-8143-40c8-9dab-cf879e2798f4","type":"Title"},"tool_events":{"id":"079a5ca0-5265-4571-aa93-9de081a28783","type":"ToolEvents"},"toolbar":{"id":"9d07496b-1e3c-4e17-969e-ad8b107840be","type":"Toolbar"},"x_range":{"id":"22cc0e37-0b15-4d57-b3af-df57149aa59c","type":"DataRange1d"},"y_range":{"id":"5b10de7e-987e-4c2d-b86a-9de6e3111749","type":"DataRange1d"}},"id":"6e230e9e-b4eb-462a-b2db-edd5b9a123b8","type":"GMapPlot"},{"attributes":{"plot":null,"text":"Portugal"},"id":"9a51c512-91dc-4890-b83e-bc44578c51bc","type":"Title"},{"attributes":{"callback":null,"overlay":{"id":"cee1f77d-4b00-402c-bbbc-5e2588d05d32","type":"BoxAnnotation"},"plot":{"id":"6e230e9e-b4eb-462a-b2db-edd5b9a123b8","type":"GMapPlot"}},"id":"12aefbe5-0108-4682-b233-195831f1d5a8","type":"BoxSelectTool"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"plot":null,"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"cee1f77d-4b00-402c-bbbc-5e2588d05d32","type":"BoxAnnotation"},{"attributes":{"callback":null,"overlay":{"id":"5fa4d567-1b18-447c-8bc1-24b418543300","type":"BoxAnnotation"},"plot":{"id":"6e230e9e-b4eb-462a-b2db-edd5b9a123b8","type":"GMapPlot"}},"id":"b5c7cece-4b51-421b-b7bb-db4852345390","type":"BoxSelectTool"},{"attributes":{"callback":null},"id":"22cc0e37-0b15-4d57-b3af-df57149aa59c","type":"DataRange1d"},{"attributes":{"plot":{"id":"6e230e9e-b4eb-462a-b2db-edd5b9a123b8","type":"GMapPlot"}},"id":"314edb69-e2d6-485d-84cf-4de16c763649","type":"WheelZoomTool"},{"attributes":{"plot":{"id":"6e230e9e-b4eb-462a-b2db-edd5b9a123b8","type":"GMapPlot"}},"id":"f54a381e-4c30-49e2-bdd4-d7b935db2ae7","type":"WheelZoomTool"},{"attributes":{"lat":39.50428,"lng":-8.513513,"zoom":7},"id":"c385baba-ed49-4e2d-992f-0c43761b8e1e","type":"GMapOptions"},{"attributes":{"active_drag":"auto","active_scroll":"auto","active_tap":"auto","tools":[{"id":"841a0f93-5ead-439e-9620-3b5da82140b2","type":"PanTool"},{"id":"20d053b0-7184-46d5-aa86-e37b090dac35","type":"WheelZoomTool"},{"id":"aca01338-4257-4b0c-a6b7-4da6d178efb9","type":"BoxSelectTool"},{"id":"ec803e3c-92de-4827-a70d-30a5619f2cf7","type":"HoverTool"}]},"id":"135dcc49-85c1-416c-a9e2-72f282050a67","type":"Toolbar"},{"attributes":{"callback":null},"id":"9e793e0c-aa1c-4a58-986a-91f16bee3bb9","type":"DataRange1d"},{"attributes":{"plot":null,"text":"Portugal"},"id":"647452fd-8143-40c8-9dab-cf879e2798f4","type":"Title"},{"attributes":{"active_drag":"auto","active_scroll":"auto","active_tap":"auto","tools":[{"id":"01d12a7e-25fe-4e11-934f-6c29aa41f27c","type":"PanTool"},{"id":"f54a381e-4c30-49e2-bdd4-d7b935db2ae7","type":"WheelZoomTool"},{"id":"b5c7cece-4b51-421b-b7bb-db4852345390","type":"BoxSelectTool"},{"id":"b279f7c5-83cc-474a-969f-30355bba6a6f","type":"HoverTool"},{"id":"97187058-11f3-497e-b374-1b4023d2c739","type":"PanTool"},{"id":"314edb69-e2d6-485d-84cf-4de16c763649","type":"WheelZoomTool"},{"id":"12aefbe5-0108-4682-b233-195831f1d5a8","type":"BoxSelectTool"},{"id":"1e8c0840-940e-46e6-b78e-a1cee92f9690","type":"HoverTool"}]},"id":"9d07496b-1e3c-4e17-969e-ad8b107840be","type":"Toolbar"},{"attributes":{"api_key":"AIzaSyAl7soWlBEWC5PS_W9yUCs5zhXHUr09HoM","map_options":{"id":"302f6f32-4ffb-433e-9893-64f3fc2f5c04","type":"GMapOptions"},"renderers":[{"id":"6c7d0ade-6338-45ac-86b8-263b6d360eff","type":"BoxAnnotation"}],"title":{"id":"9a51c512-91dc-4890-b83e-bc44578c51bc","type":"Title"},"tool_events":{"id":"bcfacaf9-407a-464f-a177-88ca4a2c9654","type":"ToolEvents"},"toolbar":{"id":"135dcc49-85c1-416c-a9e2-72f282050a67","type":"Toolbar"},"x_range":{"id":"d799b588-d450-46ae-8384-51a084387e35","type":"DataRange1d"},"y_range":{"id":"9e793e0c-aa1c-4a58-986a-91f16bee3bb9","type":"DataRange1d"}},"id":"55dd6dfd-6582-4f6e-9af7-87f3847487e1","type":"GMapPlot"},{"attributes":{"callback":null,"plot":{"id":"6e230e9e-b4eb-462a-b2db-edd5b9a123b8","type":"GMapPlot"},"tooltips":[["data (x,y)","(@x, @y)"]]},"id":"1e8c0840-940e-46e6-b78e-a1cee92f9690","type":"HoverTool"},{"attributes":{"plot":{"id":"55dd6dfd-6582-4f6e-9af7-87f3847487e1","type":"GMapPlot"}},"id":"841a0f93-5ead-439e-9620-3b5da82140b2","type":"PanTool"},{"attributes":{"callback":null},"id":"5b10de7e-987e-4c2d-b86a-9de6e3111749","type":"DataRange1d"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"plot":null,"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"6c7d0ade-6338-45ac-86b8-263b6d360eff","type":"BoxAnnotation"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"plot":null,"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"5fa4d567-1b18-447c-8bc1-24b418543300","type":"BoxAnnotation"},{"attributes":{"plot":{"id":"55dd6dfd-6582-4f6e-9af7-87f3847487e1","type":"GMapPlot"}},"id":"20d053b0-7184-46d5-aa86-e37b090dac35","type":"WheelZoomTool"},{"attributes":{"plot":{"id":"6e230e9e-b4eb-462a-b2db-edd5b9a123b8","type":"GMapPlot"}},"id":"01d12a7e-25fe-4e11-934f-6c29aa41f27c","type":"PanTool"},{"attributes":{"callback":null,"overlay":{"id":"6c7d0ade-6338-45ac-86b8-263b6d360eff","type":"BoxAnnotation"},"plot":{"id":"55dd6dfd-6582-4f6e-9af7-87f3847487e1","type":"GMapPlot"}},"id":"aca01338-4257-4b0c-a6b7-4da6d178efb9","type":"BoxSelectTool"}],"root_ids":["55dd6dfd-6582-4f6e-9af7-87f3847487e1","6e230e9e-b4eb-462a-b2db-edd5b9a123b8"]},"title":"Bokeh Application","version":"0.12.5"}};
+              var render_items = [{"docid":"2dcef0d2-d4a4-41de-b559-3d50e014146d","elementid":"b361e45f-368c-4ca4-ab31-f2b53ca9cfe7","modelid":"6e230e9e-b4eb-462a-b2db-edd5b9a123b8"}];
+              
+              Bokeh.embed.embed_items(docs_json, render_items);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+        
+        </script>
+    </body>
+</html>
